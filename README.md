@@ -21,7 +21,18 @@ import { PlaybackManager } from 'opensheetmusicdisplay';
 ## How to generate/update the types
 * checkout the osmd audio player repository
 * run `npm install` if necessary
-* run `npm run build` if necessary
+* run `npm run build` if necessary (to get up to date type definitions)
+* `npm i -g @microsoft/api-extractor`
+* `api-extractor run --local --verbose`
+* rolled up definitions will be in `build/dist/src/`
+
+<details><summary>the alternative dts-bundle seems to create erroneous syntax</summary>
+
+* checkout the osmd audio player repository
+* run `npm install` if necessary
+* run `npm run build` if necessary (to get up to date type definitions)
 * run `npm install -g dts-bundle` if necessary (will install this package globally)
 * `cd build/dist/src`
 * `dts-bundle --name opensheetmusicdisplay --main .\index.d.ts`
+* rolled up definitions will be in `build/dist/src/`
+</details>
