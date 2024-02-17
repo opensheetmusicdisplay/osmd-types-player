@@ -5,7 +5,7 @@ Type Definitions for the OSMD Audio Player
 * add osmd-types-player as a dependency in package.json:
 ```json
   "dependencies": {
-    "osmd-types-player": "git+https://github.com/opensheetmusicdisplay/osmd-types-player.git#a48577d3a5caf4dc44874746352b94d5cc4c7ca0"
+    "osmd-types-player": "git+https://github.com/opensheetmusicdisplay/osmd-types-player.git#ff8081b60e32f80cb1d7a5746cfd0e66f769953e"
   }
 ```
 (the hash at the end is the commit hash, so update this to use the latest commit)
