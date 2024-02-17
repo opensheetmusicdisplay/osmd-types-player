@@ -35,7 +35,7 @@ import { PlaybackManager } from 'opensheetmusicdisplay';
 * run `npm run build` if necessary (to get up to date type definitions)
 * `npm i -g @microsoft/api-extractor`
 * `api-extractor run --local --verbose`
-* rolled up definitions will be in `build/dist/src/`
+* rolled up definitions will be in `build/opensheetmusicdisplay.d.ts`
 * for api-extractor details, see [here](https://api-extractor.com/pages/setup/invoking/)
 
 <details><summary>the alternative dts-bundle seems to create erroneous syntax</summary>
