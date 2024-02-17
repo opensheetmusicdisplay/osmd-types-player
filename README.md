@@ -2,9 +2,13 @@
 Type Definitions for the OSMD Audio Player
 
 ## How to use the types
-* add osmd-types-player as a dependency in package.json
-* add `"opensheetmusicdisplay": "file:opensheetmusicdisplay.min.js"` as a dependency (this is the audio player build)
-* npm install
+* add osmd-types-player as a dependency in package.json:
+```json
+  "dependencies": {
+    "osmd-types-player": "git+https://github.com/opensheetmusicdisplay/osmd-types-player.git#a48577d3a5caf4dc44874746352b94d5cc4c7ca0"
+  }
+```
+(the hash at the end is the commit hash, so update this to use the latest commit)
 * in `tsconfig.json`, add this:
 ```json
     "typeRoots": [
@@ -12,6 +16,8 @@ Type Definitions for the OSMD Audio Player
       "node_modules/osmd-types-player",
     ],
 ```
+* (optional) add `"opensheetmusicdisplay": "file:opensheetmusicdisplay.min.js"` as a dependency (this is the audio player build)
+* npm install
 * now you can import types, e.g.:
 ```js
 import type { IOSMDOptions } from 'opensheetmusicdisplay';
