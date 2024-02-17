@@ -3,7 +3,7 @@ Rolled up type Definitions for the OSMD Audio Player (single file).<br>
 The default build output of the typescript compiler produces many nested files and folders,<br>
 but here the definitions are rolled up into a single file, using Microsoft's api-extractor.<br>
 <br>
-Code for the OSMD Audio Player is not public, as it's currently sponsor-exclusive,<br>
+Code for the OSMD Audio Player is not public, as it's currently [sponsor-exclusive](https://github.com/sponsors/opensheetmusicdisplay),<br>
 but having public type declarations is okay.
 
 ## How to use the types
